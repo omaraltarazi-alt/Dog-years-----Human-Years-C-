@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+  double col, bra, per;
+  int usdollars;
+  cout << " Enter number of Coloumbian Pesos: ";
+  cin >> col;
+  
+  cout << " Enter number of Brazilian Reais: ";
+  cin >> bra;
+
+  cout << " Enter number of Peruvian Soles: ";
+  cin >> per;
+
+usdollars = (0.00027 * col) + (0.19 * bra) + (0.30 * per);
+
+cout << "US Dollars = $" << usdollars << "\n";
